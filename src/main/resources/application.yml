@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: appName
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      username: mongouser
+      password: password
+      database: saas
+
+logging:
+  level:
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG
